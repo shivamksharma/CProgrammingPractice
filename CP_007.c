@@ -1,7 +1,5 @@
-/* Program to find the biggest of three integers using function  
- * 
- * 
- * */
+// Program to find the biggest of three integers using function  
+
 
 #include<stdio.h>
 

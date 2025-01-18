@@ -1,12 +1,5 @@
-/*
- *  Math Tools in C 
- *      Linear Curve Fitting
- *
- *  https://afaan.dev/math-tools-in-c 
- * 
- *  (c) Afaan Bilal (https://afaan.dev)
- *
- */
+// Math Tools in C Linear Curve Fitting
+
 
 #include <stdio.h>
 #include <math.h>

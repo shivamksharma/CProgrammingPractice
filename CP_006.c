@@ -3,7 +3,7 @@
 
 #include<stdio.h>
 
-int sum(int num1, int num2);            //Function Declarations
+int sum(int num1, int num2);           
 
 int main()
 {
@@ -16,14 +16,14 @@ int main()
 
     total = sum(num1, num2);
 
-    printf("\n Total = %d", total);     // FUNCTION CALL
+    printf("\n Total = %d", total);    
 
 return 0;
 
 }
 
-int sum(int num1, int num2)           // FUNCTION HEADER
-{                                      // FUNTCION BODY
+int sum(int num1, int num2)           
+{                                      
     int result;
     result = num1 + num2;
     return result;

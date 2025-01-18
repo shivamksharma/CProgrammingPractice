@@ -1,12 +1,4 @@
-/*
- *  Math Tools in C 
- *      LCM
- *
- *  https://afaan.dev/math-tools-in-c 
- * 
- *  (c) Afaan Bilal (https://afaan.dev)
- *
- */
+// Math Tools in C LCM
 
 #include <stdio.h>
 

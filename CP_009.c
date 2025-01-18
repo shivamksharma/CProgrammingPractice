@@ -1,12 +1,5 @@
-/*
- *  Math Tools in C 
- *      HCF (or GCD)
- *
- *  https://afaan.dev/math-tools-in-c 
- * 
- *  (c) Afaan Bilal (https://afaan.dev)
- *
- */
+// Math Tools in C HCF (or GCD)
+
 
 #include <stdio.h>
 

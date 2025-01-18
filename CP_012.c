@@ -2,10 +2,6 @@
  *  Math Tools in C 
  *      MATRICES
  *
- *  https://afaan.dev/math-tools-in-c 
- * 
- *  (c) Afaan Bilal (https://afaan.dev)
- *
  */
 
 /*
