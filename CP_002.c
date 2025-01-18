@@ -1,4 +1,4 @@
-// WAP to get the factorial of a given number
+// Factorial of a given number
 
 #include <stdio.h>
 
@@ -24,6 +24,7 @@ int main() {
             }
 
             factorial *= i;
+
         }
 
         printf(" = %d\n", factorial);
