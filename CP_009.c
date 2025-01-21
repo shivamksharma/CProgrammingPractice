@@ -1,4 +1,4 @@
-// WAP to find HCF of two numbers
+// WAP to find HCF of two numbers using recursion
 
 #include <stdio.h>
 
