@@ -1,37 +1,32 @@
-// Factorial of a given number
+// WAP to print factorial of a given number in different way
 
 #include <stdio.h>
 
 int main() {
-    int num;
-    int factorial = 1;
+  int num;
+  int factorial = 1;
 
-    printf("Enter a positive integer: ");
-    scanf("%d", &num);
+  printf("Enter a positive integer: ");
+  scanf("%d", &num);
 
-    if (num < 0) {
-        printf("Factorial is not defined for negative numbers.\n");
+  if (num < 0) {
+    printf("Factorial is not defined for negative numbers.\n");
 
-    } else {
-        printf("%d! = ", num);
+  } else {
+    printf("%d! = ", num);
 
-        for (int i = num; i >= 1; i--) {
-            printf("%d", i);
+    for (int i = num; i >= 1; i--) {
+      printf("%d", i);
 
-            if (i > 1) {
-                printf("x");
+      if (i > 1) {
+        printf("x");
+      }
 
-            }
-
-            factorial *= i;
-
-        }
-
-        printf(" = %d\n", factorial);
-
+      factorial *= i;
     }
 
-    return 0;
+    printf(" = %d\n", factorial);
+  }
 
+  return 0;
 }
-
