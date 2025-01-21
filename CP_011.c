@@ -1,31 +1,26 @@
-// Math Tools in C LCM
+// WAP to find LCM of two numbers
 
 #include <stdio.h>
 
-int main()
-{
-    int a, b, LCM;
+int main() {
+  int a, b, LCM;
 
-    printf("Enter the first number  : ");
-    scanf("%i", &a);
+  printf("Enter the first number  : ");
+  scanf("%i", &a);
 
-    printf("Enter the second number : ");
-    scanf("%i", &b);
+  printf("Enter the second number : ");
+  scanf("%i", &b);
 
-    LCM = (a > b) ? a : b;
+  LCM = (a > b) ? a : b;
 
-    while (1)
-    {
-        if (LCM % a == 0 && LCM % b == 0)
-        {
-            printf("The LCM of %i and %i is %i", a, b, LCM);
-            
-            break;
-        }
-        else
-            LCM++; 
-    }
+  while (1) {
+    if (LCM % a == 0 && LCM % b == 0) {
+      printf("The LCM of %i and %i is %i", a, b, LCM);
 
-    getch();
-    return 0;
+      break;
+    } else
+      LCM++;
+  }
+
+  return 0;
 }
