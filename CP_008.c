@@ -1,4 +1,4 @@
-// Program to find GCD of two no.s
+// WAP to find GCD of two numbers
 
 #include <stdio.h>
 int main() {
